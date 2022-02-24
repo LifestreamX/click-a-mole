@@ -1,0 +1,16 @@
+.layout {
+  background-image: url('../../images/country.png');
+  object-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loading-image-parent {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}

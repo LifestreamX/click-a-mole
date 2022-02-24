@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup {
+  height: 300;
+  width: 200;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: transform 1s;
+  transform: translateY(100%);
+}
+
+.showPopUp {
+  height: 300;
+  width: 200;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: transform 1s;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin-top: 40px;
+}
+
+.board-container {
+  width: 60%;
+  height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 40px;
+}
+
+.avatar-image {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin-top: 40px;
+}
+
