@@ -13,7 +13,7 @@ body {
   overflow: hidden;
 }
 
- /* .box {
+/* .box {
   background-image: url('/src/images/mole.png');
   object-position: center center;
   background-size: contain;
@@ -24,13 +24,13 @@ body {
   z-index: 10;
 } */
 
- .active {
+.active {
   opacity: 1;
   cursor: pointer;
 }
 .hide {
   display: none;
-} 
+}
 
 /* Global Button */
 .btn {
@@ -113,3 +113,8 @@ h1 {
   width: 100vw;
 }
 
+@media (max-width: 768px) {
+  .btn {
+    width: 50%;
+  }
+}

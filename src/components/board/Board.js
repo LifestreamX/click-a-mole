@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../../App.css';
 import './Board.css';
 import { useSelector, useDispatch } from 'react-redux';
@@ -12,6 +12,8 @@ import { signOut } from 'firebase/auth';
 import Modal from '../modal/Modal';
 
 const Board = () => {
+  // const [disabled, setDisabled] = useState(false);
+
   const dispatch = useDispatch();
 
   const { activeID, time, score, showPopUp, showModal, gameOn } = useSelector(
@@ -58,6 +60,12 @@ const Board = () => {
       });
   };
 
+  // const disableStartButton = () => {
+  //   setDisabled(true);
+  //   setTimeout(() => {
+  //       setDisabled(false);
+  //   }, 30000)}
+
   return (
     <div className='main'>
       {showModal && <Modal />}
@@ -71,25 +79,33 @@ const Board = () => {
       <h1>Time: {time}</h1>
       <h1>Score: {score}</h1>
       <button
+        // onClick={() => { start(); disableStartButton()}}
+        // disabled={disabled}
         onClick={start}
-        className={`${gameOn ? 'hide' : null} btn`}
-        className={`${showModal ? 'hide' : null} btn`}
+        className={`${showModal || gameOn ? 'hide' : null} btn`}
+
+        // className={`${gameOn ? 'hide' : null} btn`}
+        // className={`${showModal ? 'hide' : null} btn`}
       >
         Start
       </button>
 
       <button
         onClick={signOutUser}
-        className={`${gameOn ? 'hide' : null} btn`}
-        className={`${showModal ? 'hide' : null} btn`}
+        className={`${showModal || gameOn ? 'hide' : null} btn`}
+
+        // className={`${gameOn ? 'hide' : null} btn`}
+        // className={`${showModal ? 'hide' : null} btn`}
       >
         Sign Out
       </button>
 
       <button
         onClick={() => dispatch({ type: SHOW_MODAL })}
-        className={`${gameOn ? 'hide' : null} btn`}
-        className={`${showModal ? 'hide' : null} btn`}
+        className={`${showModal || gameOn ? 'hide' : null} btn`}
+
+        // className={`${gameOn ? 'hide' : null} btn`}
+        // className={`${showModal ? 'hide' : null} btn`}
       >
         LeaderBoard
       </button>
