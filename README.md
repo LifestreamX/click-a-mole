@@ -12,8 +12,10 @@ Click-A-Mole
 
 ## Screenshots
 
+![](screenshots/signin.png)
 ![](screenshots/home.png)
-![](screenshots/facility%20signup.png)
+![](screenshots/game.png)
+
 
 
 ## Technologies
@@ -22,7 +24,11 @@ Click-A-Mole
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg" title="css3" alt="css3" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="javascript" alt="javascript" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/reedux/redux-original.svg" title="redux" alt="redux" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" title="firebase" alt="firebase" width="40" height="40"/>&nbsp;
+
+
 
 ## Approach
 
-Built with React and styled with styled components with react-scroll for smooth navigation and react-icons. 
+Built with React and styled with CSS with Redux as state management. Firebase was used for the database being able to store all the outcomes of each game in it and also being displayed to the leaderboard. 
