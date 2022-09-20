@@ -12,9 +12,10 @@ Click-A-Mole
 
 ## Screenshots
 
-![](screenshots/signin.png)
-![](screenshots/home.png)
-![](screenshots/game.png)
+![](screenshots/screenshot1.png)
+![](screenshots/screenshot2.png)
+![](screenshots/screenshot3.png)
+![](screenshots/screenshot4.png)
 
 
 
