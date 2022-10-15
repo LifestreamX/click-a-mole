@@ -6,6 +6,7 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 100px;
+  width: 100%;
 }
 
 .modal-content {
@@ -34,4 +35,12 @@
 
 .btn3:hover {
   color: #8b8787;
+}
+
+@media screen and (max-width: 480px) {
+  .modal-content {
+    width: 100vw !important;
+    position: relative;
+    right: 100px !important;
+  }
 }

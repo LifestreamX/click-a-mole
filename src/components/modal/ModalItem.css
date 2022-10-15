@@ -7,12 +7,11 @@
   border: 2px solid black;
   border-radius: 30px;
   margin-bottom: 4px;
-  padding:31px;
+  padding: 31px;
   font-family: Roboto;
   font-weight: bold;
   margin: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
 }
 
 /* .score-box {
@@ -33,4 +32,15 @@
   position: relative;
   bottom: 18px;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .item-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal-container {
+  }
 }
