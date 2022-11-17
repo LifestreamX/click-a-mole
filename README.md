@@ -2,7 +2,7 @@
 
 Click-A-Mole
 
-Access my site at https://click-a-mole.firebaseapp.com/
+Access my site at https://click-a-mole.firebaseapp.com
 
 ## About The App
 
