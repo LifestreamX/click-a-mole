@@ -4,7 +4,7 @@ Click-A-Mole
 
 ## Demo link:
 
-<!-- Access my site at [google.com](https://google.com) -->
+<!-- Access my site at [google.com](https://click-a-mole.firebaseapp.com/) -->
 
 ## About The App
 
