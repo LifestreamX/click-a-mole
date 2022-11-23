@@ -24,9 +24,8 @@
 }
 
 .img2 {
-  width: 3%;
+  width: 42px;
   height: auto;
-  border: 2px solid black;
   border-radius: 50px;
   margin-bottom: 5px;
   position: relative;
@@ -38,9 +37,15 @@
   .item-container {
     width: 100%;
   }
+
+  .img2 {
+    
+    margin-right: 0px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .modal-container {
+  .img2 {
+    margin-right: 0px;
   }
 }

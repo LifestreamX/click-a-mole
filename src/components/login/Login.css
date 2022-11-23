@@ -96,4 +96,8 @@ path.two {
   }
 }
 
-
+@media screen and (max-width: 480px) {
+  .btn2 {
+    font-size: 18px;
+  }
+}
