@@ -12,7 +12,6 @@ Access my site at https://click-a-mole.firebaseapp.com
 
 ![](screenshots/screenshot1.png)
 ![](screenshots/screenshot2.png)
-![](screenshots/screenshot3.png)
 
 
 
