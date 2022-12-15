@@ -38,6 +38,7 @@ img {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   margin-top: 40px;
+  z-index: -10;
 }
 
 .avatar-image {
