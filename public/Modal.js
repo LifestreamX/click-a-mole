@@ -7,7 +7,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { db } from '../../firebase';
 import { collection, getDocs, query, orderBy, limit } from 'firebase/firestore';
 import ModalItem from './ModalItem';
- import {AiOutlineClose} from 'react-icons/ai'
+import { AiOutlineClose } from 'react-icons/ai';
 
 const Modal = () => {
   const dispatch = useDispatch();
@@ -38,11 +38,8 @@ const Modal = () => {
   return (
     <div className='modal container' onClick={(e) => closeModal(e)}>
       <div className='modal-content'>
-        <button
-          className='btn3'
-          onClick={() => dispatch({ type: SHOW_MODAL })}
-        >
-          <AiOutlineClose />
+        <button className='btn3' onClick={() => dispatch({ type: SHOW_MODAL })}>
+            <AiOutlineClose />
         </button>
 
         {db_scores?.map((item, index) => (
